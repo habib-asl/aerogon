@@ -349,3 +349,47 @@
 0769.178 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
 0769.184 (2) No email will/can be sent - the user has not configured an email address.
 0769.187 (2) The backup has not finished; a resumption is scheduled
+1389.344 (3) Opened log file at time: Wed, 03 Apr 2024 09:11:02 +0000 on http://localhost/aerogon
+1389.345 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.2 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 41.9M | 44M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1389.347 (3) Free space on disk containing Updraft's temporary directory: 50120 MB
+1389.349 (3) Requesting backup semaphore lock (b48b49929893)
+1389.352 (3) [Info] Lock (updraft_lock_b48b49929893, wp_options) acquired
+1389.355 (3) Backup run: resumption=3, nonce=b48b49929893, file_nonce=b48b49929893 begun at=1712134072 (1390s ago), job type=backup
+1389.362 (3) Scheduling a resumption (4) after 300 seconds (1712135762) in case this run gets aborted
+1389.371 (3) Checking if we have a zip executable available
+1389.373 (3) Creation of backups of directories: already finished
+1389.375 (3) Saving backup status to database (elements: 8)
+1389.383 (3) Database dump (WordPress DB): Creation was completed already
+1389.385 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1389.391 (3) backup_2024-04-03-0847_AEROGON_Singapore_b48b49929893-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1389.393 (3) backup_2024-04-03-0847_AEROGON_Singapore_b48b49929893-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1389.395 (3) backup_2024-04-03-0847_AEROGON_Singapore_b48b49929893-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1389.396 (3) backup_2024-04-03-0847_AEROGON_Singapore_b48b49929893-others.zip: others: This file has not yet been successfully uploaded: will queue
+1389.399 (3) backup_2024-04-03-0847_AEROGON_Singapore_b48b49929893-db.gz: db: This file has not yet been successfully uploaded: will queue
+1389.400 (3) Saving backup history. Total backup size: 37.7 MB
+1389.404 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1389.407 (3) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+1389.409 (3) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+1389.410 (3) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+1389.412 (3) An error condition has occurred for the first time during this job
+1389.415 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1389.417 (3) Number of backup sets in history: 2; groups (db): 1
+1389.419 (3) Examining (for databases) backup set with group_id=0, nonce=b48b49929893, datestamp=1712134072 (Apr 03 2024 08:47:52)
+1389.421 (3) This backup set is the backup set just made, so will not be deleted.
+1389.421 (3) Examining (for databases) backup set with group_id=0, nonce=daeb3d28151c, datestamp=1712046348 (Apr 02 2024 08:25:48)
+1389.421 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1389.424 (3) Number of backup sets in history: 2; groups (files): 1
+1389.425 (3) Examining (for files) backup set with nonce=b48b49929893, datestamp=1712134072 (Apr 03 2024 08:47:52)
+1389.425 (3) This backup set is the backup set just made, so will not be deleted.
+1389.427 (3) This backup set is the backup set just made, so will not be deleted.
+1389.427 (3) This backup set is the backup set just made, so will not be deleted.
+1389.427 (3) This backup set is the backup set just made, so will not be deleted.
+1389.427 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1389.428 (3) Examining (for files) backup set with nonce=daeb3d28151c, datestamp=1712046348 (Apr 02 2024 08:25:48)
+1389.428 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1389.428 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1389.432 (3) Resume backup (b48b49929893, 3): finish run
+1389.433 (3) [Info] Lock option (updraft_lock_b48b49929893, wp_options) released
+1389.436 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1389.443 (3) No email will/can be sent - the user has not configured an email address.
+1389.448 (3) The backup has not finished; a resumption is scheduled
