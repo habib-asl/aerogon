@@ -370,5 +370,16 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'yahnis-elsts/plugin-update-checker' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '6290e88eebcc367f56180e06d14da5f0a2eb2a1b',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yahnis-elsts/plugin-update-checker',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
     ),
 );
