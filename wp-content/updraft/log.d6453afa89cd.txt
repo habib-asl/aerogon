@@ -1,0 +1,795 @@
+0000.000 (0) Opened log file at time: Sun, 23 Jun 2024 05:22:07 +0000 on http://192.168.10.192/aerogon
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 56M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.004 (0) Free space on disk containing Updraft's temporary directory: 44838.5 MB
+0000.007 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.008 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.183 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1718085808, seconds_ago=1034319)
+0000.191 (0) Semaphore (fd, wp_options) was stuck, set lock time to 2024-06-23 05:22:07
+0000.193 (0) Semaphore (fd, wp_options) reset to 1
+0000.196 (0) Set semaphore last lock (fd) time to 2024-06-23 05:22:07
+0000.198 (0) Semaphore lock (fd) complete
+0000.208 (0) Backup run: resumption=0, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (0s ago), job type=backup
+0000.212 (0) Scheduling a resumption (1) after 300 seconds (1719120427) in case this run gets aborted
+0000.233 (0) Checking if we have a zip executable available
+0000.240 (0) Creation of backups of directories: beginning
+0000.248 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0002.896 (0) Total entities for the zip file: 1613 directories, 7101 files (0 skipped as non-modified), 121.5 MB
+0002.904 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0002.996 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 100 files added (on-disk size: 272.8 KB)
+0003.016 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 200 files added (on-disk size: 272.8 KB)
+0003.035 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 300 files added (on-disk size: 272.8 KB)
+0003.056 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 400 files added (on-disk size: 272.8 KB)
+0003.074 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 500 files added (on-disk size: 272.8 KB)
+0003.091 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 600 files added (on-disk size: 272.8 KB)
+0003.094 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 7101 files batched, 603 (604) added so far); re-opening (prior size: 272.8 KB)
+0010.632 (0) A useful amount of data was added after this amount of zip processing: 7.9 s (normalised: 7.9 s, rate: 3239.9 KB/s)
+0010.663 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 700 files added (on-disk size: 5577.5 KB)
+0010.683 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 800 files added (on-disk size: 5577.5 KB)
+0010.702 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 900 files added (on-disk size: 5577.5 KB)
+0010.719 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1000 files added (on-disk size: 5577.5 KB)
+0010.736 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1100 files added (on-disk size: 5577.5 KB)
+0010.755 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1200 files added (on-disk size: 5577.5 KB)
+0010.773 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1300 files added (on-disk size: 5577.5 KB)
+0010.791 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1400 files added (on-disk size: 5577.5 KB)
+0010.809 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1500 files added (on-disk size: 5577.5 KB)
+0010.814 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.8 MB, 7101 files batched, 915 (1519) added so far); re-opening (prior size: 5577.5 KB)
+0018.439 (0) A useful amount of data was added after this amount of zip processing: 8.7 s (normalised: 8.1 s, rate: 3145.1 KB/s)
+0018.471 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1600 files added (on-disk size: 12646.1 KB)
+0018.488 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1700 files added (on-disk size: 12646.1 KB)
+0018.506 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1800 files added (on-disk size: 12646.1 KB)
+0018.523 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 1900 files added (on-disk size: 12646.1 KB)
+0018.540 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2000 files added (on-disk size: 12646.1 KB)
+0018.557 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2100 files added (on-disk size: 12646.1 KB)
+0018.573 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2200 files added (on-disk size: 12646.1 KB)
+0018.590 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2300 files added (on-disk size: 12646.1 KB)
+0018.607 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2400 files added (on-disk size: 12646.1 KB)
+0018.624 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2500 files added (on-disk size: 12646.1 KB)
+0018.630 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.6 MB, 7101 files batched, 1001 (2520) added so far); re-opening (prior size: 12646.1 KB)
+0026.102 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2600 files added (on-disk size: 15785.9 KB)
+0026.123 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2700 files added (on-disk size: 15785.9 KB)
+0026.144 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2800 files added (on-disk size: 15785.9 KB)
+0026.162 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 2900 files added (on-disk size: 15785.9 KB)
+0026.180 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3000 files added (on-disk size: 15785.9 KB)
+0026.202 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3100 files added (on-disk size: 15785.9 KB)
+0026.220 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3200 files added (on-disk size: 15785.9 KB)
+0026.237 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3300 files added (on-disk size: 15785.9 KB)
+0026.255 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3400 files added (on-disk size: 15785.9 KB)
+0026.271 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3500 files added (on-disk size: 15785.9 KB)
+0026.276 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.7 MB, 7101 files batched, 1001 (3521) added so far); re-opening (prior size: 15785.9 KB)
+0037.302 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3600 files added (on-disk size: 19856.3 KB)
+0037.322 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3700 files added (on-disk size: 19856.3 KB)
+0037.340 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3800 files added (on-disk size: 19856.3 KB)
+0037.375 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 3900 files added (on-disk size: 19856.3 KB)
+0037.394 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4000 files added (on-disk size: 19856.3 KB)
+0037.412 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4100 files added (on-disk size: 19856.3 KB)
+0037.429 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4200 files added (on-disk size: 19856.3 KB)
+0037.446 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4300 files added (on-disk size: 19856.3 KB)
+0037.480 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4400 files added (on-disk size: 19856.3 KB)
+0037.499 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4500 files added (on-disk size: 19856.3 KB)
+0037.505 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (9.9 MB, 7101 files batched, 1001 (4522) added so far); re-opening (prior size: 19856.3 KB)
+0050.221 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4600 files added (on-disk size: 22737.9 KB)
+0050.240 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4700 files added (on-disk size: 22737.9 KB)
+0050.258 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4800 files added (on-disk size: 22737.9 KB)
+0050.275 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 4900 files added (on-disk size: 22737.9 KB)
+0050.294 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5000 files added (on-disk size: 22737.9 KB)
+0050.312 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5100 files added (on-disk size: 22737.9 KB)
+0050.329 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5200 files added (on-disk size: 22737.9 KB)
+0050.346 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5300 files added (on-disk size: 22737.9 KB)
+0050.364 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5400 files added (on-disk size: 22737.9 KB)
+0050.382 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5500 files added (on-disk size: 22737.9 KB)
+0050.387 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.1 MB, 7101 files batched, 1001 (5523) added so far); re-opening (prior size: 22737.9 KB)
+0058.135 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5600 files added (on-disk size: 26492.8 KB)
+0058.153 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5700 files added (on-disk size: 26492.8 KB)
+0058.170 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5800 files added (on-disk size: 26492.8 KB)
+0058.188 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 5900 files added (on-disk size: 26492.8 KB)
+0058.206 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6000 files added (on-disk size: 26492.8 KB)
+0058.224 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6100 files added (on-disk size: 26492.8 KB)
+0058.241 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6200 files added (on-disk size: 26492.8 KB)
+0058.261 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6300 files added (on-disk size: 26492.8 KB)
+0058.278 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6400 files added (on-disk size: 26492.8 KB)
+0058.296 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6500 files added (on-disk size: 26492.8 KB)
+0058.302 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (11.5 MB, 7101 files batched, 1001 (6524) added so far); re-opening (prior size: 26492.8 KB)
+0068.425 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6600 files added (on-disk size: 29828.4 KB)
+0068.444 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6700 files added (on-disk size: 29828.4 KB)
+0068.464 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6800 files added (on-disk size: 29828.4 KB)
+0068.482 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 6900 files added (on-disk size: 29828.4 KB)
+0068.501 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 7000 files added (on-disk size: 29828.4 KB)
+0068.518 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.tmp: 7100 files added (on-disk size: 29828.4 KB)
+0073.465 (0) Creating zip file manifest (backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip.list-temp.tmp)
+0073.490 (0) Successfully created zip file manifest (size: 572772)
+0073.734 (0) Created plugins zip (0) - 32706.8 KB in 73.5 s (445.1 KB/s) (sha1: 729a3cffe243a66b1768bea536ba6fda6d5909f2, sha256: 311ffd6aa17713bd99909fbd446821fb31081c8ee594465547b402babe2e1d82)
+0073.746 (0) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0073.747 (0) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0073.748 (0) UpdraftVault: this site has not been connected - check your settings
+0073.751 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0073.751 (0) An error condition has occurred for the first time during this job
+0073.758 (0) Beginning creation of dump of themes (split every: 400 MB)
+0073.874 (0) Total entities for the zip file: 47 directories, 340 files (0 skipped as non-modified), 12.4 MB
+0073.891 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0073.908 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0073.925 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0076.612 (0) Creating zip file manifest (backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip.list-temp.tmp)
+0076.617 (0) Successfully created zip file manifest (size: 23516)
+0076.704 (0) Created themes zip (0) - 11292.2 KB in 2.9 s (3842.1 KB/s) (sha1: e077301579d8170e805754e8adfdfc0e772d24e1, sha256: 2263a55031701f4e5b31bade87bb25b95ea3e9cdab460809ae53cc60d176a4d3)
+0076.710 (0) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0076.712 (0) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0076.713 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0076.720 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0076.721 (0) Looking for candidates to backup in: D:\projects\XAMPP\htdocs\aerogon/wp-content/uploads
+0076.723 (0) finding files: 2024: adding to list (1)
+0076.723 (0) finding files: elementor: adding to list (2)
+0076.726 (0) finding files: rank-math: adding to list (3)
+0076.726 (0) finding files: wp-file-manager-pro: adding to list (4)
+0076.728 (0) finding files: wpcf7_uploads: adding to list (5)
+0076.728 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0076.783 (0) Total entities for the zip file: 15 directories, 175 files (0 skipped as non-modified), 18 MB
+0076.800 (0) Zip: backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0077.746 (0) Creating zip file manifest (backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip.list-temp.tmp)
+0077.750 (0) Successfully created zip file manifest (size: 8043)
+0077.856 (0) Created uploads zip (0) - 14280.6 KB in 1.1 s (12736.5 KB/s) (sha1: 1a7380e1dea9491cc0f6496911626de25c41605a, sha256: 078c9220df198e21fd386c7ba6aee2071e8afd29d394186d2b08fea3d4eae7fd)
+0077.862 (0) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0077.865 (0) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0077.865 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0077.878 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0077.878 (0) Does not exist: D:\projects\XAMPP\htdocs\aerogon/wp-content/mu-plugins
+0077.883 (0) There are no mu-plugins to backup. Will not raise an error.
+0077.883 (0) mu-plugins: create_zip returned an error
+0077.886 (0) Beginning backup of other directories found in the content directory (index: 0)
+0077.889 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0077.889 (0) Looking for candidates to backup in: D:\projects\XAMPP\htdocs\aerogon/wp-content
+0077.891 (0) finding files: index.php: adding to list (1)
+0077.891 (0) finding files: plugins: skipping: this is the plugins directory
+0077.893 (0) finding files: themes: skipping: this is the themes directory
+0077.894 (0) finding files: updraft: skipping: this is the updraft directory
+0077.897 (0) finding files: upgrade: skipping: excluded by options
+0077.897 (0) finding files: upgrade-temp-backup: adding to list (2)
+0077.899 (0) finding files: uploads: skipping: this is the uploads directory
+0077.905 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0077.919 (0) Creating zip file manifest (backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip.list-temp.tmp)
+0077.921 (0) Successfully created zip file manifest (size: 43)
+0077.929 (0) Created others zip (0) - 0.3 KB in 0 s (10.4 KB/s) (sha1: 8f49c4cecf510ac8fb4edbc4c04ed2cc34c8c4f6, sha256: 5a936a48958d678818e18947739bbcf8522bb25f667785ccb2208ae7af01217e)
+0077.934 (0) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0077.937 (0) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0077.937 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0077.949 (0) Saving backup status to database (elements: 8)
+0077.952 (0) Beginning creation of database dump (WordPress DB)
+0077.956 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0078.291 (0) Table wp_options: Total expected rows (via COUNT): 420
+0078.294 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.347 (0) Table wp_options: Rows added in this batch (next record: 3084): 415 (uncompressed bytes in this segment=2005960) in 0.08 seconds
+0078.356 (0) Table wp_options: finishing file(s) (2, 379.1 KB)
+0078.369 (0) Table wp_users: Total expected rows (via COUNT): 1
+0078.370 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.375 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1158) in 0.01 seconds
+0078.382 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0078.396 (0) Table wp_usermeta: Total expected rows (via COUNT): 41
+0078.398 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.401 (0) Table wp_usermeta: Rows added in this batch (next record: 42): 41 (uncompressed bytes in this segment=4959) in 0.01 seconds
+0078.411 (0) Table wp_usermeta: finishing file(s) (2, 2.1 KB)
+0078.425 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0078.429 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=634) in 0.01 seconds
+0078.441 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0078.453 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0078.455 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0078.459 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1885) in 0.01 seconds
+0078.466 (0) Table wp_comments: finishing file(s) (2, 0.7 KB)
+0078.498 (0) Table wp_links: Total expected rows (via COUNT): 0
+0078.503 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1027) in 0.01 seconds
+0078.511 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0079.082 (0) Table wp_postmeta: Total expected rows (approximate): 8530
+0081.660 (0) Table wp_postmeta: Rows added in this batch (next record: 11610): 9948 (uncompressed bytes in this segment=89477975) in 3.14 seconds
+0081.673 (0) Table wp_postmeta: finishing file(s) (2, 11513 KB)
+0081.985 (0) Table wp_posts: Total expected rows (approximate): 1229
+0083.704 (0) Table wp_posts: Rows added in this batch (next record: 1659): 1494 (uncompressed bytes in this segment=43273780) in 2.03 seconds
+0083.715 (0) Table wp_posts: finishing file(s) (2, 6758.6 KB)
+0083.751 (0) Table wp_term_relationships: Total expected rows (approximate): 21
+0083.757 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 19 (uncompressed bytes in this segment=961) in 0.03 seconds
+0083.765 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0083.780 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 3
+0083.780 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.785 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=935) in 0.02 seconds
+0083.796 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0083.814 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0083.819 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=607) in 0.01 seconds
+0083.829 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0083.840 (0) Table wp_terms: Total expected rows (via COUNT): 3
+0083.842 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.845 (0) Table wp_terms: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=742) in 0.01 seconds
+0083.852 (0) Table wp_terms: finishing file(s) (2, 0.4 KB)
+0083.867 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 1
+0083.872 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.873 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 1431): 1 (uncompressed bytes in this segment=1928) in 0.02 seconds
+0083.893 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 0.7 KB)
+0083.905 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0083.911 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=623) in 0.01 seconds
+0083.920 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0083.931 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 1
+0083.933 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.935 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=658) in 0.01 seconds
+0083.946 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0083.958 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 3
+0083.958 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.961 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1056) in 0.01 seconds
+0083.966 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.5 KB)
+0083.980 (0) Table wp_e_events: Total expected rows (via COUNT): 16
+0083.981 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0083.986 (0) Table wp_e_events: Rows added in this batch (next record: 16): 16 (uncompressed bytes in this segment=3786) in 0.01 seconds
+0083.991 (0) Table wp_e_events: finishing file(s) (2, 0.9 KB)
+0084.003 (0) Table wp_e_submissions: Total expected rows (via COUNT): 1
+0084.003 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.006 (0) Table wp_e_submissions: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2431) in 0.01 seconds
+0084.020 (0) Table wp_e_submissions: finishing file(s) (2, 1 KB)
+0084.034 (0) Table wp_e_submissions_actions_log: Total expected rows (via COUNT): 1
+0084.034 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.037 (0) Table wp_e_submissions_actions_log: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1389) in 0.01 seconds
+0084.043 (0) Table wp_e_submissions_actions_log: finishing file(s) (2, 0.5 KB)
+0084.060 (0) Table wp_e_submissions_values: Total expected rows (via COUNT): 3
+0084.066 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.067 (0) Table wp_e_submissions_values: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=822) in 0.02 seconds
+0084.076 (0) Table wp_e_submissions_values: finishing file(s) (2, 0.5 KB)
+0084.087 (0) Table wp_fm_file_action_log: Total expected rows (via COUNT): 0
+0084.094 (0) Table wp_fm_file_action_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=600) in 0.01 seconds
+0084.103 (0) Table wp_fm_file_action_log: finishing file(s) (2, 0.3 KB)
+0084.115 (0) Table wp_rank_math_404_logs: Total expected rows (via COUNT): 0
+0084.115 (0) Table wp_rank_math_404_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=735) in 0.01 seconds
+0084.123 (0) Table wp_rank_math_404_logs: finishing file(s) (2, 0.4 KB)
+0084.138 (0) Table wp_rank_math_internal_links: Total expected rows (via COUNT): 0
+0084.139 (0) Table wp_rank_math_internal_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=693) in 0.01 seconds
+0084.145 (0) Table wp_rank_math_internal_links: finishing file(s) (2, 0.4 KB)
+0084.158 (0) Table wp_rank_math_internal_meta: Total expected rows (via COUNT): 0
+0084.161 (0) Table wp_rank_math_internal_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0084.172 (0) Table wp_rank_math_internal_meta: finishing file(s) (2, 0.3 KB)
+0084.183 (0) Table wp_rank_math_redirections: Total expected rows (via COUNT): 0
+0084.187 (0) Table wp_rank_math_redirections: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=943) in 0.01 seconds
+0084.193 (0) Table wp_rank_math_redirections: finishing file(s) (2, 0.5 KB)
+0084.210 (0) Table wp_rank_math_redirections_cache: Total expected rows (via COUNT): 0
+0084.211 (0) Table wp_rank_math_redirections_cache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=840) in 0.01 seconds
+0084.220 (0) Table wp_rank_math_redirections_cache: finishing file(s) (2, 0.4 KB)
+0084.232 (0) Table wp_wpfm_backup: Total expected rows (via COUNT): 0
+0084.233 (0) Table wp_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=478) in 0.01 seconds
+0084.242 (0) Table wp_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0084.253 (0) Table wp_wpfm_shortcodes: Total expected rows (via COUNT): 0
+0084.254 (0) Table wp_wpfm_shortcodes: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=575) in 0.01 seconds
+0084.263 (0) Table wp_wpfm_shortcodes: finishing file(s) (2, 0.3 KB)
+0084.277 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 31
+0084.277 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.283 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 33): 31 (uncompressed bytes in this segment=17970) in 0.02 seconds
+0084.295 (0) Table wp_yoast_indexable: finishing file(s) (2, 2.9 KB)
+0084.304 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 28
+0084.309 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 28 (uncompressed bytes in this segment=1238) in 0.01 seconds
+0084.314 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 0.5 KB)
+0084.328 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 24
+0084.330 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.333 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1234) in 0.01 seconds
+0084.340 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0084.350 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 0
+0084.354 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=829) in 0.01 seconds
+0084.363 (0) Table wp_yoast_primary_term: finishing file(s) (2, 0.4 KB)
+0084.373 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 163
+0084.373 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0084.380 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 173): 163 (uncompressed bytes in this segment=22155) in 0.01 seconds
+0084.387 (0) Table wp_yoast_seo_links: finishing file(s) (2, 3.7 KB)
+0084.388 (0) PHP event: code E_WARNING: filemtime(): stat failed for D:\projects\XAMPP\htdocs\aerogon/wp-content/updraft/backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz (line 1925, D:\projects\XAMPP\htdocs\aerogon\wp-content\plugins\updraftplus\backup.php)
+0084.390 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_options.table.tmpr3085.gz (1/33/fopen): adding to final database dump
+0084.399 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_options.table.gz (2/33/fopen): adding to final database dump
+0084.401 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_users.table.tmpr2.gz (3/33/fopen): adding to final database dump
+0084.406 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_users.table.gz (4/33/fopen): adding to final database dump
+0084.408 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_usermeta.table.tmpr43.gz (5/33/fopen): adding to final database dump
+0084.410 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_usermeta.table.gz (6/33/fopen): adding to final database dump
+0084.412 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_commentmeta.table.tmpr0.gz (7/33/fopen): adding to final database dump
+0084.414 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_commentmeta.table.gz (8/33/fopen): adding to final database dump
+0084.420 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_comments.table.tmpr2.gz (9/33/fopen): adding to final database dump
+0084.422 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_comments.table.gz (10/33/fopen): adding to final database dump
+0084.425 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_links.table.tmpr0.gz (11/33/fopen): adding to final database dump
+0084.427 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_links.table.gz (12/33/fopen): adding to final database dump
+0084.429 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_postmeta.table.tmpr11611.gz (13/33/fopen): adding to final database dump
+0084.654 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_postmeta.table.gz (14/33/fopen): adding to final database dump
+0084.657 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_posts.table.tmpr1660.gz (15/33/fopen): adding to final database dump
+0084.798 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_posts.table.gz (16/33/fopen): adding to final database dump
+0084.801 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_term_relationships.table.tmpr100001.gz (17/33/fopen): adding to final database dump
+0084.803 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_term_relationships.table.gz (18/33/fopen): adding to final database dump
+0084.805 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_term_taxonomy.table.tmpr4.gz (19/33/fopen): adding to final database dump
+0084.807 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_term_taxonomy.table.gz (20/33/fopen): adding to final database dump
+0084.811 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_termmeta.table.tmpr0.gz (21/33/fopen): adding to final database dump
+0084.815 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_termmeta.table.gz (22/33/fopen): adding to final database dump
+0084.817 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_terms.table.tmpr4.gz (23/33/fopen): adding to final database dump
+0084.819 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_terms.table.gz (24/33/fopen): adding to final database dump
+0084.821 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_actions.table.tmpr1432.gz (25/33/fopen): adding to final database dump
+0084.824 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_actions.table.gz (26/33/fopen): adding to final database dump
+0084.826 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_claims.table.tmpr0.gz (27/33/fopen): adding to final database dump
+0084.828 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_claims.table.gz (28/33/fopen): adding to final database dump
+0084.830 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_groups.table.tmpr2.gz (29/33/fopen): adding to final database dump
+0084.832 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_groups.table.gz (30/33/fopen): adding to final database dump
+0084.834 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_logs.table.tmpr4.gz (31/33/fopen): adding to final database dump
+0084.836 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_actionscheduler_logs.table.gz (32/33/fopen): adding to final database dump
+0084.842 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_events.table.tmpr17.gz (33/33/fopen): adding to final database dump
+0084.847 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_events.table.gz (34/33/fopen): adding to final database dump
+0084.849 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_submissions.table.tmpr2.gz (35/33/fopen): adding to final database dump
+0084.851 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_submissions.table.gz (36/33/fopen): adding to final database dump
+0084.853 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_submissions_actions_log.table.tmpr2.gz (37/33/fopen): adding to final database dump
+0084.856 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_submissions_actions_log.table.gz (38/33/fopen): adding to final database dump
+0084.858 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_submissions_values.table.tmpr4.gz (39/33/fopen): adding to final database dump
+0084.860 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_e_submissions_values.table.gz (40/33/fopen): adding to final database dump
+0084.862 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_fm_file_action_log.table.tmpr0.gz (41/33/fopen): adding to final database dump
+0084.864 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_fm_file_action_log.table.gz (42/33/fopen): adding to final database dump
+0084.866 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_404_logs.table.tmpr0.gz (43/33/fopen): adding to final database dump
+0084.869 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_404_logs.table.gz (44/33/fopen): adding to final database dump
+0084.873 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_internal_links.table.tmpr0.gz (45/33/fopen): adding to final database dump
+0084.875 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_internal_links.table.gz (46/33/fopen): adding to final database dump
+0084.877 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_internal_meta.table.tmpr0.gz (47/33/fopen): adding to final database dump
+0084.880 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_internal_meta.table.gz (48/33/fopen): adding to final database dump
+0084.885 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_redirections.table.tmpr0.gz (49/33/fopen): adding to final database dump
+0084.887 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_redirections.table.gz (50/33/fopen): adding to final database dump
+0084.889 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_redirections_cache.table.tmpr0.gz (51/33/fopen): adding to final database dump
+0084.891 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_rank_math_redirections_cache.table.gz (52/33/fopen): adding to final database dump
+0084.894 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_wpfm_backup.table.tmpr0.gz (53/33/fopen): adding to final database dump
+0084.897 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_wpfm_backup.table.gz (54/33/fopen): adding to final database dump
+0084.899 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_wpfm_shortcodes.table.tmpr0.gz (55/33/fopen): adding to final database dump
+0084.902 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_wpfm_shortcodes.table.gz (56/33/fopen): adding to final database dump
+0084.904 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_indexable.table.tmpr34.gz (57/33/fopen): adding to final database dump
+0084.906 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_indexable.table.gz (58/33/fopen): adding to final database dump
+0084.911 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (59/33/fopen): adding to final database dump
+0084.913 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_indexable_hierarchy.table.gz (60/33/fopen): adding to final database dump
+0084.915 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_migrations.table.tmpr25.gz (61/33/fopen): adding to final database dump
+0084.918 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_migrations.table.gz (62/33/fopen): adding to final database dump
+0084.920 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_primary_term.table.tmpr0.gz (63/33/fopen): adding to final database dump
+0084.922 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_primary_term.table.gz (64/33/fopen): adding to final database dump
+0084.924 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_seo_links.table.tmpr174.gz (65/33/fopen): adding to final database dump
+0084.926 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db-table-wp_yoast_seo_links.table.gz (66/33/fopen): adding to final database dump
+0084.963 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: finished writing out complete database file (18672.5 KB)
+0085.122 (0) Total database tables backed up: 33 (backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz, size: 19120760, sha1: 44780e780c76af8c50a361688f353d542f07d30f, sha256: a1314ff5fd791c0a07e882e90ef8023a968a3a0f706fa75b18ef4b10108bd944)
+0085.133 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0085.137 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0085.140 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0085.142 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0085.144 (0) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0085.146 (0) Saving backup history. Total backup size: 75.1 MB
+0085.151 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0085.155 (0) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0085.157 (0) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0085.158 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0085.162 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0085.162 (0) Number of backup sets in history: 3; groups (db): 1
+0085.164 (0) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+0085.164 (0) This backup set is the backup set just made, so will not be deleted.
+0085.164 (0) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+0085.164 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.166 (0) Examining (for databases) backup set with group_id=0, nonce=b568020887da, datestamp=1718001754 (Jun 10 2024 06:42:34)
+0085.166 (0) 1718001754: db: this set includes a database (backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-db.gz); db count is now 2
+0085.166 (0) 1718001754: db: over retain limit (2); will delete this database
+0085.166 (0) Delete file: backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-db.gz, service=updraftvault
+0085.166 (0) Deleting local copy (backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-db.gz)
+0085.168 (0) PHP event: code E_WARNING: unlink(D:\projects\XAMPP\htdocs\aerogon/wp-content/updraft/backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-db.gz): No such file or directory (line 1203, D:\projects\XAMPP\htdocs\aerogon\wp-content\plugins\updraftplus\backup.php)
+0085.171 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0085.178 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0085.178 (0) Number of backup sets in history: 3; groups (files): 1
+0085.180 (0) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+0085.180 (0) This backup set is the backup set just made, so will not be deleted.
+0085.182 (0) This backup set is the backup set just made, so will not be deleted.
+0085.182 (0) This backup set is the backup set just made, so will not be deleted.
+0085.182 (0) This backup set is the backup set just made, so will not be deleted.
+0085.182 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.184 (0) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+0085.184 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0085.184 (0) Examining (for files) backup set with nonce=b568020887da, datestamp=1718001754 (Jun 10 2024 06:42:34)
+0085.184 (0) plugins: over retain limit (2); will delete this file entity
+0085.184 (0) themes: over retain limit (2); will delete this file entity
+0085.184 (0) uploads: over retain limit (2); will delete this file entity
+0085.184 (0) others: over retain limit (2); will delete this file entity
+0085.185 (0) Delete file: backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-plugins.zip, service=updraftvault
+0085.186 (0) Deleting local copy (backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-plugins.zip)
+0085.188 (0) PHP event: code E_WARNING: unlink(D:\projects\XAMPP\htdocs\aerogon/wp-content/updraft/backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-plugins.zip): No such file or directory (line 1203, D:\projects\XAMPP\htdocs\aerogon\wp-content\plugins\updraftplus\backup.php)
+0085.190 (0) Delete file: backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-themes.zip, service=updraftvault
+0085.192 (0) Deleting local copy (backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-themes.zip)
+0085.194 (0) PHP event: code E_WARNING: unlink(D:\projects\XAMPP\htdocs\aerogon/wp-content/updraft/backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-themes.zip): No such file or directory (line 1203, D:\projects\XAMPP\htdocs\aerogon\wp-content\plugins\updraftplus\backup.php)
+0085.197 (0) Delete file: backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-others.zip, service=updraftvault
+0085.197 (0) Deleting local copy (backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-others.zip)
+0085.199 (0) PHP event: code E_WARNING: unlink(D:\projects\XAMPP\htdocs\aerogon/wp-content/updraft/backup_2024-06-10-0642_AEROGON_Singapore_b568020887da-others.zip): No such file or directory (line 1203, D:\projects\XAMPP\htdocs\aerogon\wp-content\plugins\updraftplus\backup.php)
+0085.201 (0) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0085.212 (0) This backup set is now empty; will remove from history
+0085.214 (0) Corresponding log file (log.b568020887da.txt) not found - must have already been deleted
+0085.216 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0085.221 (0) Resume backup (d6453afa89cd, 0): finish run
+0085.225 (0) Decremented the semaphore (fd) by 1
+0085.228 (0) Semaphore (fd, wp_options) still locked (0)
+0085.232 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0085.237 (0) No email will/can be sent - the user has not configured an email address.
+0085.240 (0) The backup has not finished; a resumption is scheduled
+0317.745 (1) Opened log file at time: Sun, 23 Jun 2024 05:27:25 +0000 on https://192.168.10.192/aerogon
+0317.747 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 104M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0317.749 (1) Free space on disk containing Updraft's temporary directory: 44765.9 MB
+0317.751 (1) Requesting backup semaphore lock (d6453afa89cd)
+0317.755 (1) [Debug] Lock option (updraft_lock_d6453afa89cd, wp_options) was created in the database
+0317.757 (1) [Info] Lock (updraft_lock_d6453afa89cd, wp_options) acquired after initialising the database
+0317.760 (1) Backup run: resumption=1, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (318s ago), job type=backup, previous check-in=85.21s
+0317.764 (1) Scheduling a resumption (2) after 300 seconds (1719120745) in case this run gets aborted
+0317.772 (1) Checking if we have a zip executable available
+0317.774 (1) Creation of backups of directories: already finished
+0317.776 (1) Saving backup status to database (elements: 8)
+0317.784 (1) Database dump (WordPress DB): Creation was completed already
+0317.786 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0317.793 (1) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0317.794 (1) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0317.796 (1) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0317.798 (1) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0317.799 (1) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0317.801 (1) Saving backup history. Total backup size: 75.1 MB
+0317.805 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0317.809 (1) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0317.811 (1) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0317.813 (1) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0317.814 (1) An error condition has occurred for the first time during this job
+0317.818 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0317.820 (1) Number of backup sets in history: 2; groups (db): 1
+0317.822 (1) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+0317.824 (1) This backup set is the backup set just made, so will not be deleted.
+0317.824 (1) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+0317.824 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0317.826 (1) Number of backup sets in history: 2; groups (files): 1
+0317.827 (1) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+0317.827 (1) This backup set is the backup set just made, so will not be deleted.
+0317.829 (1) This backup set is the backup set just made, so will not be deleted.
+0317.829 (1) This backup set is the backup set just made, so will not be deleted.
+0317.829 (1) This backup set is the backup set just made, so will not be deleted.
+0317.829 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0317.831 (1) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+0317.831 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0317.831 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0317.835 (1) Resume backup (d6453afa89cd, 1): finish run
+0317.839 (1) [Info] Lock option (updraft_lock_d6453afa89cd, wp_options) released
+0317.842 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0317.845 (1) No email will/can be sent - the user has not configured an email address.
+0317.847 (1) The backup has not finished; a resumption is scheduled
+0680.742 (2) Opened log file at time: Sun, 23 Jun 2024 05:33:28 +0000 on https://192.168.10.192/aerogon
+0680.745 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 80M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0680.747 (2) Free space on disk containing Updraft's temporary directory: 44765.9 MB
+0680.749 (2) Requesting backup semaphore lock (d6453afa89cd)
+0680.753 (2) [Info] Lock (updraft_lock_d6453afa89cd, wp_options) acquired
+0680.757 (2) Backup run: resumption=2, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (681s ago), job type=backup
+0680.760 (2) Scheduling a resumption (3) after 300 seconds (1719121108) in case this run gets aborted
+0680.776 (2) Checking if we have a zip executable available
+0680.778 (2) Creation of backups of directories: already finished
+0680.780 (2) Saving backup status to database (elements: 8)
+0680.788 (2) Database dump (WordPress DB): Creation was completed already
+0680.790 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0680.799 (2) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0680.801 (2) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0680.803 (2) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0680.805 (2) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+0680.807 (2) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+0680.809 (2) Saving backup history. Total backup size: 75.1 MB
+0680.813 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0680.817 (2) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+0680.819 (2) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+0680.821 (2) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+0680.822 (2) An error condition has occurred for the first time during this job
+0680.826 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0680.828 (2) Number of backup sets in history: 2; groups (db): 1
+0680.830 (2) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+0680.832 (2) This backup set is the backup set just made, so will not be deleted.
+0680.832 (2) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+0680.832 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0680.837 (2) Number of backup sets in history: 2; groups (files): 1
+0680.839 (2) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+0680.839 (2) This backup set is the backup set just made, so will not be deleted.
+0680.840 (2) This backup set is the backup set just made, so will not be deleted.
+0680.840 (2) This backup set is the backup set just made, so will not be deleted.
+0680.840 (2) This backup set is the backup set just made, so will not be deleted.
+0680.841 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0680.842 (2) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+0680.842 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0680.843 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0680.847 (2) Resume backup (d6453afa89cd, 2): finish run
+0680.849 (2) [Info] Lock option (updraft_lock_d6453afa89cd, wp_options) released
+0680.852 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0680.856 (2) No email will/can be sent - the user has not configured an email address.
+0680.858 (2) The backup has not finished; a resumption is scheduled
+1062.687 (3) Opened log file at time: Sun, 23 Jun 2024 05:39:49 +0000 on https://192.168.10.192/aerogon
+1062.690 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 62M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1062.692 (3) Free space on disk containing Updraft's temporary directory: 44765.9 MB
+1062.703 (3) Requesting backup semaphore lock (d6453afa89cd)
+1062.706 (3) [Info] Lock (updraft_lock_d6453afa89cd, wp_options) acquired
+1062.710 (3) Backup run: resumption=3, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (1063s ago), job type=backup
+1062.715 (3) Scheduling a resumption (4) after 300 seconds (1719121490) in case this run gets aborted
+1062.735 (3) Checking if we have a zip executable available
+1062.737 (3) Creation of backups of directories: already finished
+1062.739 (3) Saving backup status to database (elements: 8)
+1062.868 (3) Database dump (WordPress DB): Creation was completed already
+1062.870 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1062.877 (3) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1062.878 (3) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1062.880 (3) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1062.882 (3) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+1062.884 (3) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+1062.885 (3) Saving backup history. Total backup size: 75.1 MB
+1062.889 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+1062.893 (3) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+1062.896 (3) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+1062.899 (3) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+1062.902 (3) An error condition has occurred for the first time during this job
+1062.906 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1062.910 (3) Number of backup sets in history: 2; groups (db): 1
+1062.913 (3) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+1062.916 (3) This backup set is the backup set just made, so will not be deleted.
+1062.916 (3) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+1062.916 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1062.919 (3) Number of backup sets in history: 2; groups (files): 1
+1062.922 (3) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+1062.923 (3) This backup set is the backup set just made, so will not be deleted.
+1062.927 (3) This backup set is the backup set just made, so will not be deleted.
+1062.927 (3) This backup set is the backup set just made, so will not be deleted.
+1062.927 (3) This backup set is the backup set just made, so will not be deleted.
+1062.927 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1062.931 (3) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+1062.931 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+1062.931 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1062.940 (3) Resume backup (d6453afa89cd, 3): finish run
+1062.943 (3) [Info] Lock option (updraft_lock_d6453afa89cd, wp_options) released
+1062.949 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1062.956 (3) No email will/can be sent - the user has not configured an email address.
+1062.960 (3) The backup has not finished; a resumption is scheduled
+1369.755 (4) Opened log file at time: Sun, 23 Jun 2024 05:44:57 +0000 on https://192.168.10.192/aerogon
+1369.757 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 60M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1369.759 (4) Free space on disk containing Updraft's temporary directory: 44765.9 MB
+1369.761 (4) Requesting backup semaphore lock (d6453afa89cd)
+1369.764 (4) [Info] Lock (updraft_lock_d6453afa89cd, wp_options) acquired
+1369.767 (4) Backup run: resumption=4, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (1370s ago), job type=backup
+1369.770 (4) Scheduling a resumption (5) after 300 seconds (1719121797) in case this run gets aborted
+1369.780 (4) Checking if we have a zip executable available
+1369.781 (4) Creation of backups of directories: already finished
+1369.783 (4) Saving backup status to database (elements: 8)
+1369.791 (4) Database dump (WordPress DB): Creation was completed already
+1369.792 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1369.798 (4) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1369.800 (4) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1369.801 (4) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1369.803 (4) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+1369.805 (4) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+1369.806 (4) Saving backup history. Total backup size: 75.1 MB
+1369.809 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1369.813 (4) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+1369.814 (4) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+1369.816 (4) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+1369.817 (4) An error condition has occurred for the first time during this job
+1369.820 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1369.822 (4) Number of backup sets in history: 2; groups (db): 1
+1369.824 (4) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+1369.825 (4) This backup set is the backup set just made, so will not be deleted.
+1369.825 (4) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+1369.825 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1369.827 (4) Number of backup sets in history: 2; groups (files): 1
+1369.828 (4) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+1369.828 (4) This backup set is the backup set just made, so will not be deleted.
+1369.829 (4) This backup set is the backup set just made, so will not be deleted.
+1369.829 (4) This backup set is the backup set just made, so will not be deleted.
+1369.830 (4) This backup set is the backup set just made, so will not be deleted.
+1369.830 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1369.831 (4) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+1369.831 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1369.831 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1369.835 (4) Resume backup (d6453afa89cd, 4): finish run
+1369.837 (4) [Info] Lock option (updraft_lock_d6453afa89cd, wp_options) released
+1369.839 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1369.843 (4) No email will/can be sent - the user has not configured an email address.
+1369.844 (4) The backup has not finished; a resumption is scheduled
+1732.702 (5) Opened log file at time: Sun, 23 Jun 2024 05:50:59 +0000 on https://192.168.10.192/aerogon
+1732.705 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 58M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+1732.708 (5) Free space on disk containing Updraft's temporary directory: 44765.9 MB
+1732.712 (5) Requesting backup semaphore lock (d6453afa89cd)
+1732.716 (5) [Info] Lock (updraft_lock_d6453afa89cd, wp_options) acquired
+1732.721 (5) Backup run: resumption=5, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (1733s ago), job type=backup
+1732.725 (5) Scheduling a resumption (6) after 300 seconds (1719122160) in case this run gets aborted
+1732.735 (5) Checking if we have a zip executable available
+1732.737 (5) Creation of backups of directories: already finished
+1732.739 (5) Saving backup status to database (elements: 8)
+1732.748 (5) Database dump (WordPress DB): Creation was completed already
+1732.750 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1732.757 (5) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1732.758 (5) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1732.760 (5) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1732.762 (5) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+1732.766 (5) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+1732.768 (5) Saving backup history. Total backup size: 75.1 MB
+1732.773 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1732.776 (5) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+1732.778 (5) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+1732.780 (5) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+1732.781 (5) An error condition has occurred for the first time during this job
+1732.785 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1732.787 (5) Number of backup sets in history: 2; groups (db): 1
+1732.789 (5) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+1732.790 (5) This backup set is the backup set just made, so will not be deleted.
+1732.790 (5) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+1732.790 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1732.792 (5) Number of backup sets in history: 2; groups (files): 1
+1732.794 (5) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+1732.794 (5) This backup set is the backup set just made, so will not be deleted.
+1732.795 (5) This backup set is the backup set just made, so will not be deleted.
+1732.795 (5) This backup set is the backup set just made, so will not be deleted.
+1732.795 (5) This backup set is the backup set just made, so will not be deleted.
+1732.795 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1732.797 (5) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+1732.797 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1732.797 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1732.801 (5) Resume backup (d6453afa89cd, 5): finish run
+1732.803 (5) [Info] Lock option (updraft_lock_d6453afa89cd, wp_options) released
+1732.806 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1732.809 (5) No email will/can be sent - the user has not configured an email address.
+1732.811 (5) The backup has not finished; a resumption is scheduled
+6668.204 (6) Opened log file at time: Sun, 23 Jun 2024 07:13:15 +0000 on http://192.168.10.192/aerogon
+6668.206 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 53.6M | 64M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+6668.208 (6) Free space on disk containing Updraft's temporary directory: 44765.9 MB
+6668.220 (6) Requesting backup semaphore lock (d6453afa89cd)
+6668.223 (6) [Info] Lock (updraft_lock_d6453afa89cd, wp_options) acquired
+6668.227 (6) Backup run: resumption=6, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (6668s ago), job type=backup
+6668.229 (6) Long time past since expected resumption time: approx expected=1719122160, now=1719126795.5, diff=4635.5
+6668.232 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+6668.236 (6) Scheduling a resumption (7) after 300 seconds (1719127095) in case this run gets aborted
+6668.277 (6) Checking if we have a zip executable available
+6668.279 (6) Creation of backups of directories: already finished
+6668.281 (6) Saving backup status to database (elements: 8)
+6668.411 (6) Database dump (WordPress DB): Creation was completed already
+6668.413 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+6668.421 (6) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+6668.423 (6) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+6668.425 (6) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6668.426 (6) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+6668.428 (6) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+6668.430 (6) Saving backup history. Total backup size: 75.1 MB
+6668.434 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+6668.438 (6) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+6668.440 (6) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+6668.445 (6) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+6668.447 (6) An error condition has occurred for the first time during this job
+6668.454 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+6668.456 (6) Number of backup sets in history: 2; groups (db): 1
+6668.458 (6) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+6668.460 (6) This backup set is the backup set just made, so will not be deleted.
+6668.460 (6) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+6668.460 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6668.464 (6) Number of backup sets in history: 2; groups (files): 1
+6668.469 (6) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+6668.469 (6) This backup set is the backup set just made, so will not be deleted.
+6668.471 (6) This backup set is the backup set just made, so will not be deleted.
+6668.471 (6) This backup set is the backup set just made, so will not be deleted.
+6668.471 (6) This backup set is the backup set just made, so will not be deleted.
+6668.471 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6668.472 (6) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+6668.472 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+6668.473 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+6668.477 (6) Resume backup (d6453afa89cd, 6): finish run
+6668.481 (6) [Info] Lock option (updraft_lock_d6453afa89cd, wp_options) released
+6668.484 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6668.488 (6) No email will/can be sent - the user has not configured an email address.
+6668.490 (6) The backup has not finished; a resumption is scheduled
+16954.553 (7) Opened log file at time: Sun, 23 Jun 2024 10:04:41 +0000 on https://192.168.10.192/aerogon
+16954.554 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 56M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+16954.556 (7) Free space on disk containing Updraft's temporary directory: 44765.8 MB
+16954.558 (7) Requesting backup semaphore lock (d6453afa89cd)
+16954.561 (7) [Info] Lock (updraft_lock_1817e3fadf67, wp_options) acquired
+16954.564 (7) Backup run: resumption=7, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (16954s ago), job type=backup
+16954.566 (7) Long time past since expected resumption time: approx expected=1719127095.5, now=1719137081.8, diff=9986.4
+16954.568 (7) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+16954.571 (7) Scheduling a resumption (8) after 300 seconds (1719137381) in case this run gets aborted
+16954.577 (7) Checking if we have a zip executable available
+16954.580 (7) Creation of backups of directories: already finished
+16954.582 (7) Saving backup status to database (elements: 8)
+16954.586 (7) Database dump (WordPress DB): Creation was completed already
+16954.588 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+16954.595 (7) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+16954.596 (7) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+16954.598 (7) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+16954.600 (7) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+16954.601 (7) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+16954.603 (7) Saving backup history. Total backup size: 75.1 MB
+16954.607 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+16954.610 (7) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+16954.612 (7) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+16954.613 (7) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+16954.617 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+16954.619 (7) Number of backup sets in history: 2; groups (db): 1
+16954.621 (7) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+16954.621 (7) This backup set is the backup set just made, so will not be deleted.
+16954.621 (7) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+16954.621 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+16954.622 (7) Number of backup sets in history: 2; groups (files): 1
+16954.627 (7) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+16954.627 (7) This backup set is the backup set just made, so will not be deleted.
+16954.630 (7) This backup set is the backup set just made, so will not be deleted.
+16954.631 (7) This backup set is the backup set just made, so will not be deleted.
+16954.631 (7) This backup set is the backup set just made, so will not be deleted.
+16954.631 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+16954.634 (7) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+16954.634 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+16954.635 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+16954.644 (7) Resume backup (d6453afa89cd, 7): finish run
+16954.650 (7) [Info] Lock option (updraft_lock_1817e3fadf67, wp_options) released
+16954.654 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+16954.659 (7) No email will/can be sent - the user has not configured an email address.
+16954.661 (7) The backup has not finished; a resumption is scheduled
+17286.983 (8) Opened log file at time: Sun, 23 Jun 2024 10:10:14 +0000 on https://192.168.10.192/aerogon
+17286.985 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 56M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+17286.987 (8) Free space on disk containing Updraft's temporary directory: 44766.8 MB
+17286.988 (8) Requesting backup semaphore lock (d6453afa89cd)
+17286.992 (8) [Info] Lock (updraft_lock_1817e3fadf67, wp_options) acquired
+17286.996 (8) Backup run: resumption=8, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (17287s ago), job type=backup
+17286.999 (8) Scheduling a resumption (9) after 300 seconds (1719137714) in case this run gets aborted
+17287.003 (8) Checking if we have a zip executable available
+17287.005 (8) Creation of backups of directories: already finished
+17287.007 (8) Saving backup status to database (elements: 8)
+17287.010 (8) Database dump (WordPress DB): Creation was completed already
+17287.012 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+17287.019 (8) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17287.021 (8) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17287.022 (8) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17287.024 (8) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+17287.026 (8) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+17287.028 (8) Saving backup history. Total backup size: 75.1 MB
+17287.032 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+17287.035 (8) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+17287.037 (8) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+17287.039 (8) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+17287.043 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17287.045 (8) Number of backup sets in history: 2; groups (db): 1
+17287.046 (8) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+17287.046 (8) This backup set is the backup set just made, so will not be deleted.
+17287.046 (8) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+17287.046 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17287.048 (8) Number of backup sets in history: 2; groups (files): 1
+17287.050 (8) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+17287.050 (8) This backup set is the backup set just made, so will not be deleted.
+17287.052 (8) This backup set is the backup set just made, so will not be deleted.
+17287.052 (8) This backup set is the backup set just made, so will not be deleted.
+17287.052 (8) This backup set is the backup set just made, so will not be deleted.
+17287.052 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17287.054 (8) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+17287.054 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+17287.054 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+17287.059 (8) Resume backup (d6453afa89cd, 8): finish run
+17287.062 (8) [Info] Lock option (updraft_lock_1817e3fadf67, wp_options) released
+17287.066 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+17287.070 (8) No email will/can be sent - the user has not configured an email address.
+17287.072 (8) The backup has not finished; a resumption is scheduled
+17591.451 (9) Opened log file at time: Sun, 23 Jun 2024 10:15:18 +0000 on https://192.168.10.192/aerogon
+17591.453 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.24.3.0 WP: 6.4.3 PHP: 8.0.28 (apache2handler, Windows NT HABIB-DESIGNER 10.0 build 19045 (Windows 10) AMD64) MySQL: 10.4.28-MariaDB (max packet size=1048576) WPLANG: en_US Server: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 55M | 80M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+17591.454 (9) Free space on disk containing Updraft's temporary directory: 44766.3 MB
+17591.456 (9) Requesting backup semaphore lock (d6453afa89cd)
+17591.459 (9) [Info] Lock (updraft_lock_1817e3fadf67, wp_options) acquired
+17591.463 (9) Backup run: resumption=9, nonce=d6453afa89cd, file_nonce=d6453afa89cd begun at=1719120127 (17591s ago), job type=backup
+17591.466 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+17591.470 (9) Scheduling a resumption (10) after 300 seconds (1719138018); but the job will then be aborted unless something happens this time
+17591.474 (9) Creation of backups of directories: already finished
+17591.476 (9) Saving backup status to database (elements: 8)
+17591.480 (9) Database dump (WordPress DB): Creation was completed already
+17591.482 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+17591.489 (9) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+17591.493 (9) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+17591.497 (9) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+17591.499 (9) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-others.zip: others: This file has not yet been successfully uploaded: will queue
+17591.501 (9) backup_2024-06-23-0522_AEROGON_Singapore_d6453afa89cd-db.gz: db: This file has not yet been successfully uploaded: will queue
+17591.503 (9) Saving backup history. Total backup size: 75.1 MB
+17591.507 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+17591.511 (9) Cloud backup selection (1/1): updraftvault with instance (1/1) (last)
+17591.513 (9) Beginning dispatch of backup to remote (updraftvault) (instance identifier s-df865cccbe1ec7503640569ef8f902a0)
+17591.515 (9) Error message: UpdraftPlus_BackupModule_updraftvault: No settings were found - please go to the Settings tab and check your settings
+17591.519 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+17591.522 (9) Number of backup sets in history: 2; groups (db): 1
+17591.524 (9) Examining (for databases) backup set with group_id=0, nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+17591.524 (9) This backup set is the backup set just made, so will not be deleted.
+17591.524 (9) Examining (for databases) backup set with group_id=0, nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+17591.524 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17591.526 (9) Number of backup sets in history: 2; groups (files): 1
+17591.528 (9) Examining (for files) backup set with nonce=d6453afa89cd, datestamp=1719120127 (Jun 23 2024 05:22:07)
+17591.528 (9) This backup set is the backup set just made, so will not be deleted.
+17591.529 (9) This backup set is the backup set just made, so will not be deleted.
+17591.530 (9) This backup set is the backup set just made, so will not be deleted.
+17591.530 (9) This backup set is the backup set just made, so will not be deleted.
+17591.530 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17591.532 (9) Examining (for files) backup set with nonce=39d200229c97, datestamp=1718085808 (Jun 11 2024 06:03:28)
+17591.532 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+17591.532 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+17591.536 (9) Resume backup (d6453afa89cd, 9): finish run
+17591.540 (9) [Info] Lock option (updraft_lock_1817e3fadf67, wp_options) released
+17591.543 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+17591.547 (9) No email will/can be sent - the user has not configured an email address.
+17591.549 (9) The backup attempt has finished, apparently unsuccessfully
